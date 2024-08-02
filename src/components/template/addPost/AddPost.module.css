@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.form h3 {
+  border-bottom: 3px solid #a62626;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+.form label {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.form input,
+.form select,
+.form textarea {
+  display: block;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.form textarea {
+  height: 100px;
+}
+
+.form button {
+  width: 120px;
+  background-color: #a62626;
+  color: #fff;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
