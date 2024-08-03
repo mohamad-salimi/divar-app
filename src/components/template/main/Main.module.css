@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: calc(33% - 10px);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 150px;
+  height: 130px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info div {
+  color: gray;
+  font-size: 0.9rem;
+}
